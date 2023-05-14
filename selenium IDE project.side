@@ -1,0 +1,180 @@
+{
+  "id": "ddc3a8e0-0892-4052-916a-178d904331ab",
+  "version": "2.0",
+  "name": "selenium IDE project",
+  "url": "https://www.globalsqa.com/samplepagetest/",
+  "tests": [{
+    "id": "6283a8f7-656e-4ed9-b914-9e19115280c0",
+    "name": "Selenium project",
+    "commands": [{
+      "id": "b7991e74-5a35-46c8-b656-dbcee6060bb8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "011c69c6-7ddb-487c-aebb-83966503b66f",
+      "comment": "",
+      "command": "click",
+      "target": "g2599-name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c71dc37a-888e-45af-b190-01f7e2efb659",
+      "comment": "",
+      "command": "type",
+      "target": "g2599-name",
+      "targets": [],
+      "value": "Prahlad"
+    }, {
+      "id": "56f57de0-2329-430c-b1c2-849c7a6ba9c1",
+      "comment": "",
+      "command": "clickAt",
+      "target": "g2599-email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "518b9de1-588e-428f-acca-ac0ba5fb44d7",
+      "comment": "",
+      "command": "type",
+      "target": "g2599-email",
+      "targets": [],
+      "value": "pk9295002@gmail.com"
+    }, {
+      "id": "698831f6-31aa-4005-b9c1-13a71e6acb56",
+      "comment": "",
+      "command": "type",
+      "target": "g2599-website",
+      "targets": [],
+      "value": "https://www.beyondthemind.com/"
+    }, {
+      "id": "2e3f0fbd-a10f-46e9-9e2d-cbb630ad18a6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "g2599-experienceinyears",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13b51b5b-2f4a-4f00-8e11-ca0dee7c4027",
+      "comment": "",
+      "command": "select",
+      "target": "g2599-experienceinyears",
+      "targets": [],
+      "value": "label=3-5"
+    }, {
+      "id": "22d74831-63f4-49ca-bb69-b47e6fdf9f82",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.grunion-field-checkbox-multiple-wrap > .grunion-field-label",
+      "targets": [
+        ["css=.grunion-field-checkbox-multiple-wrap > .grunion-field-label", "css:finder"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[5]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Expertise :')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43d3b469-31fa-498b-9694-316fae29e3f5",
+      "comment": "",
+      "command": "click",
+      "target": "name=g2599-expertise[]",
+      "targets": [
+        ["name=g2599-expertise[]", "name"],
+        ["css=.grunion-checkbox-multiple-label:nth-child(2) > .checkbox-multiple", "css:finder"],
+        ["xpath=//input[@name='g2599-expertise[]']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[5]/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bc42e3d-e714-4e4d-931c-5f15bfe2b17a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grunion-checkbox-multiple-label:nth-child(4) > .checkbox-multiple",
+      "targets": [
+        ["css=.grunion-checkbox-multiple-label:nth-child(4) > .checkbox-multiple", "css:finder"],
+        ["xpath=(//input[@name='g2599-expertise[]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[5]/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "922adbac-2582-4f2c-891e-94d45bac6976",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grunion-field-radio-wrap > .grunion-field-label",
+      "targets": [
+        ["css=.grunion-field-radio-wrap > .grunion-field-label", "css:finder"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[6]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Education')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b8e0bf9-a7d7-4d1e-a855-061c658e0d4c",
+      "comment": "",
+      "command": "click",
+      "target": "name=g2599-education",
+      "targets": [
+        ["name=g2599-education", "name"],
+        ["css=.grunion-radio-label:nth-child(2) > .radio", "css:finder"],
+        ["xpath=//input[@name='g2599-education']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[6]/label[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eeee98f-3489-4174-bcdf-9781362e6712",
+      "comment": "",
+      "command": "click",
+      "target": "id=contact-form-comment-g2599-comment",
+      "targets": [
+        ["id=contact-form-comment-g2599-comment", "id"],
+        ["name=g2599-comment", "name"],
+        ["css=#contact-form-comment-g2599-comment", "css:finder"],
+        ["xpath=//textarea[@id='contact-form-comment-g2599-comment']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f34707-21bb-4b93-a6da-e806a9bda8a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=contact-form-comment-g2599-comment",
+      "targets": [
+        ["id=contact-form-comment-g2599-comment", "id"],
+        ["name=g2599-comment", "name"],
+        ["css=#contact-form-comment-g2599-comment", "css:finder"],
+        ["xpath=//textarea[@id='contact-form-comment-g2599-comment']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Good job "
+    }, {
+      "id": "e9cefcfe-8439-47b3-91d3-a988bc41dced",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pushbutton-wide",
+      "targets": [
+        ["css=.pushbutton-wide", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/p[3]/button", "xpath:idRelative"],
+        ["xpath=//p[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0a4f1b75-40be-46f9-8bf1-0e910ed749f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6283a8f7-656e-4ed9-b914-9e19115280c0"]
+  }],
+  "urls": ["https://www.globalsqa.com/samplepagetest/"],
+  "plugins": []
+}
